@@ -4403,13 +4403,14 @@ header-style-seven .nav-toggler:hover {
 .about-section .content-column .content-box .text {
 	position: relative;
 	display: block;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 28px;
 	color: #777777;
-	margin-bottom: 45px;
+	margin-bottom: 10px;
 }
 
 .about-section .content-column .content-box .link-box {
+	margin-top: 20px;
 	position: relative;
 }
 
@@ -4457,7 +4458,7 @@ header-style-seven .nav-toggler:hover {
 
 .services-carousel {
 	position: relative;
-	padding-bottom: 75px;
+	padding-bottom: 10px;
 }
 
 .service-block {
