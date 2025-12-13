@@ -1,4 +1,3 @@
-/* Contra - Interior Creator HTML Template */
 
 /************ TABLE OF CONTENTS ***************
 1. Fonts
@@ -47,7 +46,7 @@
 /*** 
 
 ====================================================================
-			Fonts
+							Fonts
 ====================================================================
 
 ***/
@@ -2734,7 +2733,7 @@ header-style-seven .nav-toggler:hover {
 }
 
 .banner-section .bottom-box .contact-info li span {
-	color: #ffae00;
+	color: #ea2502;
 	text-transform: uppercase;
 }
 
@@ -7890,7 +7889,8 @@ header-style-seven .nav-toggler:hover {
 
 .app-section .content-column .inner-column {
 	position: relative;
-	padding-top: 85px;
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
 
 .app-section .content-column h3 {
