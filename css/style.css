@@ -1,4 +1,3 @@
-
 /************ TABLE OF CONTENTS ***************
 1. Fonts
 2. Reset
@@ -13207,4 +13206,97 @@ header-style-seven .nav-toggler:hover {
 	padding-left: 0;
 	margin-left: 35px;
 	display: none;
+}
+
+
+
+.two-column-list {
+	columns: 2;
+	-webkit-columns: 2;
+	-moz-columns: 2;
+	column-gap: 40px;
+}
+
+.two-column-list li {
+	break-inside: avoid;
+	margin-bottom: 10px;
+}
+
+.values-section {
+	padding: 40px 0 70px;
+	background-color: #ffffff;
+}
+
+.values-section .sec-title {
+	margin-bottom: 50px;
+}
+
+.values-section .value-block .inner-box,
+.values-section .goal-box {
+	position: relative;
+	padding: 30px 30px;
+	margin-bottom: 30px;
+	background: #fafafa;
+	border: 1px solid #e6e6e6;
+	transition: all 0.3s ease;
+}
+
+.values-section .value-block .inner-box:hover,
+.values-section .goal-box:hover {
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+	transform: translateY(-5px);
+}
+
+.values-section p {
+	font-size: 16px;
+	line-height: 1.7;
+	color: #555;
+}
+
+.cta-section-editorial {
+	padding: 50px 0;
+	background: #fdfdfd;
+}
+
+.cta-section-editorial .inner-wrapper {
+	margin: 0 auto;
+	padding-left: 40px;
+	border-left: 4px solid #ed272f;
+}
+
+.cta-section-editorial h2 {
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 25px;
+	color: #000000;
+
+}
+
+.cta-section-editorial p {
+	font-size: 17px;
+	line-height: 1.85;
+	color: #000000;
+	margin-bottom: 0;
+}
+
+.cta-section-editorial .divider {
+	height: 1px;
+	background: #e6e6e6;
+	margin: 10px 0;
+}
+
+.cta-section-editorial .statement-list p {
+	font-size: 19px;
+	font-weight: 500;
+	margin-bottom: 5px;
+	color: #222;
+}
+
+.cta-section-editorial .statement-list p:last-child {
+	margin-bottom: 0;
+}
+
+.cta-section-editorial .closing-text p {
+	font-size: 18px;
+	font-weight: 500;
 }
